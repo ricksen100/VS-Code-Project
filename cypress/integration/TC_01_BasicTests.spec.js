@@ -13,7 +13,7 @@ describe("Login Suite", function () {
     cy.contains("No articles are here... yet.").should("be.visible");
   });
 
-  /*it("Second Test", () => {
+  it("Second Test", () => {
     cy.log(this.test.parent.title);
-  });*/
+  });
 });
