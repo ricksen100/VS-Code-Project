@@ -26,7 +26,7 @@ describe("Mixing Sync & Async Code", () => {
     //   console.log(`Anchor Tags Text String  - ${arr.join(", ")}`);
     // });
 
-    // Print the count of anchor tags and join the array
+    //Print the count of anchor tags and join the array
     cy.get("a")
       .then((els) => {
         for (let index = 0; index < els.length; index++) {
