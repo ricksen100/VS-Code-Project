@@ -10,6 +10,7 @@ describe("Login Suite", function () {
     cy.get('input[type="password"]').type("MakeinIndia@100");
     cy.get('button[type="submit"]').click();
     ////Assert
+    //Ass
     cy.contains("No articles are here... yet.").should("be.visible");
   });
 
