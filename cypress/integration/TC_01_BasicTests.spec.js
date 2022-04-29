@@ -9,7 +9,7 @@ describe("Login Suite", function () {
     cy.get('input[type="email"]').type("dipyaman96@gmail.com");
     cy.get('input[type="password"]').type("MakeinIndia@100");
     cy.get('button[type="submit"]').click();
-    ////Assert
+    ////Assert1
     cy.contains("No articles are here... yet.").should("be.visible");
   });
 
