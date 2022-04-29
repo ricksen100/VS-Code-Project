@@ -12,7 +12,8 @@ describe("Login Suite", function () {
     ////Assert
     //Ass
     //A
-    cy.contains("No articles are here... yet.").should("be.visible");
+    //Asser
+    cy.contains("No articles here.. yet.").should("be.visible");
   });
 
   it("Second Test", () => {
