@@ -5,11 +5,11 @@ describe("Login Suite", function () {
     cy.log(this.test);
     //Arrange
     cy.visit("https://react-redux.realworld.io/#/login?_k=g43dop");
-    ////Act
+    //////////Act
     cy.get('input[type="email"]').type("dipyaman96@gmail.com");
     cy.get('input[type="password"]').type("MakeinIndia@100");
     cy.get('button[type="submit"]').click();
-    //Assert
+    ////Assert
     cy.contains("No articles are here... yet.").should("be.visible");
   });
 
