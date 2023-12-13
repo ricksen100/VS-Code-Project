@@ -1,0 +1,8 @@
+{
+    "editor.accessibilitySupport": "off",
+    "cucumberautocomplete.steps": [
+        "cypress/support/step_definitions/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/integration//*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
