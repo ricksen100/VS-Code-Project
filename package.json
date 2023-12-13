@@ -1,7 +1,6 @@
 {
   "name": "cypress-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cypress open"
@@ -10,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.5.0"
-  }
+    "cypress": "^9.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricksen100/VS-Code-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricksen100/VS-Code-Project/issues"
+  },
+  "homepage": "https://github.com/ricksen100/VS-Code-Project#readme",
+  "description": ""
 }
